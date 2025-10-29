@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 18px;
+  text-align: left;
+}
+
+li {
+  margin: 6px 0;
+}
+
+
+li::marker {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+
+
+.center-box {
+  width: 500px;
+  margin: 20px auto;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
